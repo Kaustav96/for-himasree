@@ -1,4 +1,4 @@
-const hearts = Array.from({ length: 15 });
+const hearts = Array.from({ length: 12 });
 
 export default function FloatingHearts() {
   return (
@@ -7,9 +7,9 @@ export default function FloatingHearts() {
         <span
           key={index}
           style={{
-            left: `${(index * 17) % 100}%`,
-            animationDelay: `${index * 1.2}s`,
-            animationDuration: `${10 + (index % 5)}s`,
+            left: `${(index * 23) % 100}%`,
+            animationDelay: `${index * 1.7}s`,
+            animationDuration: `${12 + (index % 4) * 2}s`,
           }}
         >
           ♥

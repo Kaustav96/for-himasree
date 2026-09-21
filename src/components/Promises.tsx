@@ -2,22 +2,22 @@ const promises = [
   {
     number: "01",
     title: "I will listen.",
-    text: "Not just wait for my turn to speak. I will actually listen to understand you.",
+    text: "I will stop trying to immediately defend myself or prove that I am right. I will listen to what you are actually feeling.",
   },
   {
     number: "02",
     title: "I will speak with kindness.",
-    text: "Even when I am angry, frustrated or hurt, I will remember that my words have consequences.",
+    text: "Even when I am angry, frustrated or hurt, I will remember that my words can hurt the person I love. Anger will never be an excuse for disrespect.",
   },
   {
     number: "03",
     title: "I will respect you and your family.",
-    text: "Your family matters because they matter to you. They deserve my respect and dignity.",
+    text: "Your family is important to you, and I will treat them with the respect, dignity and kindness they deserve.",
   },
   {
     number: "04",
     title: "I will earn your trust through actions.",
-    text: "I don't want to make promises only with words. I want my actions to prove that I mean them.",
+    text: "I don't expect you to trust me just because I promise to change. I want my behavior over time to show you that I mean what I say.",
   },
 ];
 
@@ -42,7 +42,10 @@ export default function Promises() {
 
         <div className="promise-grid">
           {promises.map((promise) => (
-            <div className="promise-card" key={promise.number}>
+            <div
+              className="promise-card"
+              key={promise.number}
+            >
               <span>{promise.number}</span>
 
               <h3>{promise.title}</h3>

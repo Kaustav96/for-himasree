@@ -13,19 +13,26 @@ export default function Intro() {
         </h2>
 
         <p>
-          I know that saying "sorry" is easy. What matters is understanding
-          why I am saying it, accepting what I did wrong, and showing through
-          my actions that I can do better.
+          Himasree, I know I have hurt you. I know that there are things I
+          said and ways I behaved that I cannot simply take back by saying
+          "sorry".
         </p>
 
         <p>
-          So this isn't an attempt to make excuses.
-          It isn't an attempt to make you forget.
-          And it isn't asking you to immediately forgive me.
+          I also know that I hurt and disrespected your family. That makes me
+          even more sorry, because they are people I should have treated with
+          love, dignity and respect.
+        </p>
+
+        <p>
+          I am not writing this to make excuses for myself. I am not writing
+          this to ask you to forget what happened or to forgive me before
+          you're ready.
         </p>
 
         <p className="emphasis">
-          It's simply me taking responsibility.
+          I am writing this because I was wrong, and I want to take
+          responsibility for it.
         </p>
       </div>
     </section>
