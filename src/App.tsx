@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import {
   ArrowDown,
   Camera,
-  Feather,
   Heart,
   ShieldCheck,
   Sparkles,
